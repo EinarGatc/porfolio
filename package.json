@@ -12,9 +12,11 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.12",
     "devicon": "^2.16.0",
+    "framer-motion": "^12.5.0",
     "motion": "^12.4.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-multi-carousel": "^2.8.5",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {

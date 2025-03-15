@@ -52,7 +52,7 @@ export const WorkExperience = () => {
     ]
 
     return (
-        <div className="w-2/3">
+        <div className="p-21">
             {experiences.map((exp, expIndex) => (
                 <div 
                 key={expIndex} 

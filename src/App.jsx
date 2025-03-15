@@ -4,6 +4,7 @@ import { NavbarComponent } from './components/navbar'
 import { HeroProfile } from './components/Hero'
 import { TechnologicalSkill } from './components/Skills'
 import { WorkExperience } from './components/Experience'
+import { Projects } from './components/Projects'
 function App() {
   return (
     <div className="font-secondary">
@@ -14,8 +15,8 @@ function App() {
       <div className='relative flex justify-center top-[100vh] w-full'>
         <div className='flex flex-col sticky min-h-screen rounded-4xl top-0 z-1 w-[95%] bg-white rounded-flex'>
           {/* About Section */}
-          <div className='flex w-full mb-20 justify-between p-10'>
-            {/* Summary */}
+          <div className='flex w-full p-21'>
+              {/* Summary */}
             <div className='flex w-1/2 flex-col space-y-4'>
               <div className='text-xl text-[#F6BD60]'>A BIT</div>
               <div className='text-4xl'>About Me</div>
@@ -47,8 +48,8 @@ function App() {
             </div>
           </div>
           {/* Education */}
-          <div className='flex mb-20 w-full p-10'>
-            <div className='flex w-1/2 items-center justify-center'>
+          <div className='flex mb-20 w-full px-21 justify-between'>
+            <div className='flex w-1/2'>
               <div className="w-2/3 aspect-square rounded-full overflow-hidden border-4 border-[#F6BD60] shadow-lg">
                 <img 
                 src="src/images/ant.zot.png" 
@@ -75,7 +76,7 @@ function App() {
             </div>
           </div>
           {/* Technologies */}
-          <div className='flex flex-col items-center p-10 space-y-10'>
+          <div className='flex flex-col mb-20 items-center p-21 space-y-10'>
             <span className='text-4xl'>Technical Skills</span>
             <TechnologicalSkill/>
           </div>
@@ -85,10 +86,11 @@ function App() {
             <WorkExperience/> 
           </div>
           {/* Recent Projects */}
-          <div className='flex w-full mb-20 text-2xl flex-col text-white items-center p-10 space-y-10 rounded-b-xl bg-[#0F0F0F]'>
+          <div className='flex w-full mb-20 text-2xl flex-col text-white items-center space-y-10 rounded-b-xl bg-[#0F0F0F]'>
             <span className='text-4xl'>Recent Projects</span>
-            
+            <Projects/>
           </div>
+
           
         </div>
       </div>
