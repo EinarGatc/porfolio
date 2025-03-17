@@ -7,7 +7,8 @@ import { WorkExperience } from './components/Experience'
 import { Projects } from './components/Projects'
 import ContactSection from './components/Contact'
 import { motion, AnimatePresence } from "framer-motion";
-
+import AZ from "./assets/images/ant.zot.png";
+import UCI from "./assets/images/University_of_California,_Irvine_seal.svg"
 function App() {
   return (
     <div className="flex flex-col font-secondary items-center">
@@ -79,7 +80,7 @@ function App() {
                 className='absolute z-20 transform -rotate-10 w-1/2 h-3/4 lg:left-1/4 lg:w-1/2 lg:h-1/2 rounded-lg overflow-hidden hover:z-50 transition-all duration-300 hover:rotate-0 hover:scale-105'
               >
                 <img 
-                  src="./assets/images/ant.zot.png" 
+                  src={AZ} 
                   alt="" 
                   className="w-full h-full"
                 />
@@ -92,7 +93,7 @@ function App() {
                 className='absolute lg:top-1/2 lg:left-1/2 left-5/8 z-10 transform rotate-6 h-full lg:w-1/2 lg:h-1/2 rounded-lg overflow-hidden hover:z-50 transition-all duration-300 hover:rotate-0 hover:scale-105'
               >
                 <img 
-                  src="./assets/images/University_of_California,_Irvine_seal.svg" 
+                  src={UCI} 
                   alt="" 
                   className="w-full h-full"
                 />

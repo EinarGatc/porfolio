@@ -4,14 +4,16 @@ import { IoDocuments, IoStopwatch, IoPerson } from "react-icons/io5";
 import { FaMagnifyingGlass, FaMessage, FaGamepad, FaGear } from "react-icons/fa6";
 import { GoGraph } from "react-icons/go";
 import { RiStackFill } from "react-icons/ri";
-
+import MSE from "../assets/images/MedicalSearchEngine.png"
+import BO from "../assets/images/Left Side.png"
+import MPE from "../assets/images/MPE.gif"
 const projects = [
     {
         title: "Medical Search Engine",
         content: {
             github: "https://github.com/EinarGatc/Medical-Search-Engine",
             description: "Specialized medical information retrieval engine.",
-            project_image: "./assets/images/MedicalSearchEngine.png",
+            project_image: MSE,
             content_text_color: "text-white",
             content_bg_color: "bg-sky-600",
             
@@ -33,7 +35,7 @@ const projects = [
         content: {
             github: "https://github.com/heartybp/Adobytes",
             description: "Networking platform connecting students with mentors.",
-            project_image: "./assets/images/Left Side.png",
+            project_image: BO,
             content_text_color: "text-white",
             content_bg_color: "bg-emerald-900",
             features: [
@@ -54,7 +56,7 @@ const projects = [
         content: {
             github: "https://github.com/eddie100971/soccer-twos-working",
             description: "Reinforcement learning for multi-agent environments.",
-            project_image: "./assets/images/MPE.gif",
+            project_image: MPE,
             content_text_color: "text-white",
             content_bg_color: "bg-blue-950",
             features: [

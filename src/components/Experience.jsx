@@ -1,13 +1,6 @@
-import {
-    animate,
-    motion,
-    MotionValue,
-    useMotionValue,
-    useMotionValueEvent,
-    useScroll,
-} from "motion/react"
-
 import React, {useState, useRef, useEffect} from 'react';
+import GG from "../assets/images/GG.png"
+import RA from "../assets/images/kickoff-22_orig.jpeg"
 
 export const WorkExperience = () => {
     const experiences = [
@@ -15,7 +8,7 @@ export const WorkExperience = () => {
             job_title: "Software Engineer Intern",
             company: "GlucoGuard",
             date: "Jan 2025 - Present",
-            img: "./assets/images/GG.png",
+            img: GG,
             sections: [
                 {
                     title: "Full-Stack Development",
@@ -35,7 +28,7 @@ export const WorkExperience = () => {
             job_title: "Research Assistant",
             company: "UCI MUST Project",
             date: "Sept 2024 - Present", 
-            img: "./assets/images/kickoff-22_orig.jpeg",
+            img: RA,
             sections: [
                 {
                     title: "Data Processing",
