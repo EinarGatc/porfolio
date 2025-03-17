@@ -1,6 +1,6 @@
 import React, {useState, useRef, useEffect} from 'react';
-import GG from "../assets/images/GG.png"
-import RA from "../assets/images/kickoff-22_orig.jpeg"
+import GG from "/images/GG.png"
+import RA from "/images/kickoff-22_orig.jpeg"
 
 export const WorkExperience = () => {
     const experiences = [

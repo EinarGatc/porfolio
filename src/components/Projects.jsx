@@ -4,9 +4,9 @@ import { IoDocuments, IoStopwatch, IoPerson } from "react-icons/io5";
 import { FaMagnifyingGlass, FaMessage, FaGamepad, FaGear } from "react-icons/fa6";
 import { GoGraph } from "react-icons/go";
 import { RiStackFill } from "react-icons/ri";
-import MSE from "../assets/images/MedicalSearchEngine.png"
-import BO from "../assets/images/Left Side.png"
-import MPE from "../assets/images/MPE.gif"
+import MSE from "/images/MedicalSearchEngine.png"
+import BO from "/images/Left Side.png"
+import MPE from "/images/MPE.gif"
 const projects = [
     {
         title: "Medical Search Engine",
