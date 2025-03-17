@@ -29,7 +29,7 @@ export const HeroProfile = () => {
                 </div>
                 <div className="w-[40%] aspect-square rounded-full overflow-hidden border-4 border-[#F6BD60] shadow-lg">
                     <img 
-                    src="./public/images/IMG_4439_2.jpg" 
+                    src="./assets/images/IMG_4439_2.jpg" 
                     alt="Profile" 
                     className="w-full h-full object-cover"
                     />
