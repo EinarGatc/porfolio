@@ -11,7 +11,7 @@ const projects = [
         content: {
             github: "https://github.com/EinarGatc/Medical-Search-Engine",
             description: "Specialized medical information retrieval engine.",
-            project_image: "images/MedicalSearchEngine.png",
+            project_image: "./public/images/MedicalSearchEngine.png",
             content_text_color: "text-white",
             content_bg_color: "bg-sky-600",
             
@@ -33,7 +33,7 @@ const projects = [
         content: {
             github: "https://github.com/heartybp/Adobytes",
             description: "Networking platform connecting students with mentors.",
-            project_image: "images/Left Side.png",
+            project_image: "./public/images/Left Side.png",
             content_text_color: "text-white",
             content_bg_color: "bg-emerald-900",
             features: [
@@ -54,7 +54,7 @@ const projects = [
         content: {
             github: "https://github.com/eddie100971/soccer-twos-working",
             description: "Reinforcement learning for multi-agent environments.",
-            project_image: "images/MPE.gif",
+            project_image: "./public/images/MPE.gif",
             content_text_color: "text-white",
             content_bg_color: "bg-blue-950",
             features: [

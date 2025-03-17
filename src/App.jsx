@@ -19,7 +19,6 @@ function App() {
       </section>
       
       <div className="flex z-1 flex-col w-full h-full justify-center px-21">
-        {/* About Section */}
         <section id="about" className="bg-white rounded-t-4xl py-20 px-21">
           <div className='flex flex-col space-y-4'>
             <div className='text-xl text-[#F6BD60]'>A BIT</div>
@@ -47,7 +46,6 @@ function App() {
           </div>
         </section>
         
-        {/* Education Section */}
         <section id="education" className="bg-white min-h-[50vh] pb-20 px-21">
           <div className='flex flex-col h-full lg:flex-row mb-20 w-full lg:justify-between'>
             <div className='flex w-full lg:w-1/2 flex-col space-y-4 justify-center'>
@@ -81,7 +79,7 @@ function App() {
                 className='absolute z-20 transform -rotate-10 w-1/2 h-3/4 lg:left-1/4 lg:w-1/2 lg:h-1/2 rounded-lg overflow-hidden hover:z-50 transition-all duration-300 hover:rotate-0 hover:scale-105'
               >
                 <img 
-                  src="images/ant.zot.png" 
+                  src="./public/images/ant.zot.png" 
                   alt="" 
                   className="w-full h-full"
                 />
@@ -94,7 +92,7 @@ function App() {
                 className='absolute lg:top-1/2 lg:left-1/2 left-5/8 z-10 transform rotate-6 h-full lg:w-1/2 lg:h-1/2 rounded-lg overflow-hidden hover:z-50 transition-all duration-300 hover:rotate-0 hover:scale-105'
               >
                 <img 
-                  src="images/University_of_California,_Irvine_seal.svg" 
+                  src="./public/images/University_of_California,_Irvine_seal.svg" 
                   alt="" 
                   className="w-full h-full"
                 />
@@ -103,7 +101,6 @@ function App() {
           </div>
         </section>
         
-        {/* Skills Section */}
         <section id="skills" className="bg-white pb-20 px-21">
           <div className='flex flex-col mb-20 items-center space-y-10'>
             <span className='text-4xl'>Technical Skills</span>
@@ -111,7 +108,6 @@ function App() {
           </div>
         </section>
         
-        {/* Portfolio Section (Work Experience + Projects) */}
         <section id="portfolio" className="bg-[#0F0F0F] text-white">
           <div className='flex w-full pt-20 text-2xl flex-col items-center'>
             <span className='text-4xl pb-5'>Work Experience</span>
@@ -123,7 +119,6 @@ function App() {
           </div>
         </section>
         
-        {/* Contact Section */}
         <section id="contact" className="z-1">
           <div className='flex bg-white w-full h-full text-2xl flex-col text-black items-center space-y-10'>
             <ContactSection />
