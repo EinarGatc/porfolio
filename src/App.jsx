@@ -10,7 +10,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 function App() {
   return (
-    <div>here</div>
+    <div className='text-black'>here</div>
     // <div className="flex flex-col font-secondary items-center">
     //   <NavbarComponent />
       
