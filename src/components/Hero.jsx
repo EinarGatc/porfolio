@@ -1,13 +1,11 @@
 import Typewriter from 'typewriter-effect';
 export const HeroProfile = () => {
     return (
-        <div className="w-[95%] mt-16 h-[calc(100vh-6rem)] bg-[#0F0F0F]  rounded-4xl py-5 px-20">
-            <div className="flex text-gray-400 font-secondary items-center h-full">
-                <div className="flex flex-col text-4xl w-[60%] justify-start space-y-4">
-                    <div>
-                        <span className="text-6xl">Hi, I'm</span>
-                        <span className='text-6xl text-white'> Einar Gatchlian</span>
-                    </div>
+        <div className="w-full mt-16 h-[calc(100vh-6rem)] bg-[#0F0F0F]  rounded-4xl py-5 px-20" id='#About'>
+            <div className="flex text-gray-400 font-secondary items-center h-full gap-2">
+                <div className="flex flex-col text-4xl w-[60%] h-1/2 justify-start">
+                    <span className="text-6xl">Hi, I'm</span>
+                    <span className='text-6xl text-white'> Einar Gatchlian</span>
                     <span className='ml-1'>
                         <Typewriter
                         onInit={(typewriter) => {

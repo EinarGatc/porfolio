@@ -1,16 +1,33 @@
+
+  
+// In your NavbarComponent.jsx
 export const NavbarComponent = () => {
-    return (
-        <div className="fixed flex w-full h-16 text-xl bg-blue-50 justify-center items-center">
-            <div className="flex w-[95%] justify-between items-baseline">
-                <div className="text-3xl">Einar</div>
-                <div className="flex gap-10">
-                    <div>Home</div>
-                    <div>About</div>
-                    <div>Portfolio</div>
-                    <div>Contact</div>
-                </div>    
-            </div>
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            const offset = 80; // Adjust based on your navbar height
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - offset;
             
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+    };
+  
+    return (
+      <nav className="fixed top-0 w-full z-50 bg-white shadow-md text-xl">
+        <div className="container mx-auto px-6 py-3">
+          <div className="flex justify-between items-center">
+            <div>Einar Gatchalian</div>
+            <div className="flex space-x-6">
+              <button onClick={() => scrollToSection('about')} className="hover:text-[#F6BD60]">About</button>
+              <button onClick={() => scrollToSection('portfolio')} className="hover:text-[#F6BD60]">Portfolio</button>
+              <button onClick={() => scrollToSection('contact')} className="hover:text-[#F6BD60]">Contact</button>
+            </div>
+          </div>
         </div>
-    )
-}
+      </nav>
+    );
+};

@@ -14,7 +14,8 @@ export const WorkExperience = () => {
         { 
             job_title: "Software Engineer Intern",
             company: "GlucoGuard",
-            date: "Jan 2025 - Present", 
+            date: "Jan 2025 - Present",
+            img: "src/images/GG.png",
             sections: [
                 {
                     title: "Full-Stack Development",
@@ -34,6 +35,7 @@ export const WorkExperience = () => {
             job_title: "Research Assistant",
             company: "UCI MUST Project",
             date: "Sept 2024 - Present", 
+            img: "src/images/kickoff-22_orig.jpeg",
             sections: [
                 {
                     title: "Data Processing",
@@ -52,11 +54,11 @@ export const WorkExperience = () => {
     ]
 
     return (
-        <div className="p-21">
+        <div className="px-21">
             {experiences.map((exp, expIndex) => (
                 <div 
                 key={expIndex} 
-                className="flex flex-col pb-20 bg-[#0F0F0F] text-white space-y-4"
+                className="flex flex-col pb-20 text-white space-y-4"
                 >
                     <div className="text-3xl px-10">{exp.job_title}</div>
                     <div className="text-2xl px-10 text-[#F6BD60]">{exp.company}</div>
@@ -100,8 +102,8 @@ const Experience = ({experience}) => {
     }, []);
 
     return (
-        <div className="w-full rounded-4xl p-10 bg-[#131313]">
-            <div className="md:w-1/2 max-h-66 overflow-y-auto">
+        <div className="flex w-full flex-col lg:flex-row rounded-4xl p-10 bg-[#131313] space-y-10">
+            <div className="w-full lg:w-1/2 max-h-66 overflow-y-auto">
                 {experience.sections.map((section, sectionIndex) => (
                     <FadeInSection>
                     <div 
@@ -114,6 +116,10 @@ const Experience = ({experience}) => {
                     </FadeInSection>
                 ))}
             </div>
+            <div className="w-full flex lg:w-1/2 rounded-lg items-center justify-center">
+                <img className="w-3/4 flex rounded-xl" src={experience.img} alt="" />    
+            </div>
+            
         </div>
     );
 }
