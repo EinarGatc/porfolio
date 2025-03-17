@@ -81,7 +81,7 @@ function App() {
                 className='absolute z-20 transform -rotate-10 w-1/2 h-3/4 lg:left-1/4 lg:w-1/2 lg:h-1/2 rounded-lg overflow-hidden hover:z-50 transition-all duration-300 hover:rotate-0 hover:scale-105'
               >
                 <img 
-                  src="src/images/ant.zot.png" 
+                  src="images/ant.zot.png" 
                   alt="" 
                   className="w-full h-full"
                 />
@@ -94,7 +94,7 @@ function App() {
                 className='absolute lg:top-1/2 lg:left-1/2 left-5/8 z-10 transform rotate-6 h-full lg:w-1/2 lg:h-1/2 rounded-lg overflow-hidden hover:z-50 transition-all duration-300 hover:rotate-0 hover:scale-105'
               >
                 <img 
-                  src="src/images/University_of_California,_Irvine_seal.svg" 
+                  src="images/University_of_California,_Irvine_seal.svg" 
                   alt="" 
                   className="w-full h-full"
                 />

@@ -15,7 +15,7 @@ export const WorkExperience = () => {
             job_title: "Software Engineer Intern",
             company: "GlucoGuard",
             date: "Jan 2025 - Present",
-            img: "src/images/GG.png",
+            img: "images/GG.png",
             sections: [
                 {
                     title: "Full-Stack Development",
@@ -35,7 +35,7 @@ export const WorkExperience = () => {
             job_title: "Research Assistant",
             company: "UCI MUST Project",
             date: "Sept 2024 - Present", 
-            img: "src/images/kickoff-22_orig.jpeg",
+            img: "images/kickoff-22_orig.jpeg",
             sections: [
                 {
                     title: "Data Processing",
