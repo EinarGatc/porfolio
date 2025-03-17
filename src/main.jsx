@@ -7,11 +7,6 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    just checking fdhaljfdakfhdlanfvkldnalfdklad
-    {/* <BrowserRouter basename='/portfolio/'>
-      <Routes>
-        <Route path='*' element={<App />}/>
-      </Routes>
-    </BrowserRouter> */}
+    <div>just checking fdhaljfdakfhdlanfvkldnalfdklad</div>
   </StrictMode>
 )
