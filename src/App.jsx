@@ -3,12 +3,12 @@ import './App.css'
 import { NavbarComponent } from './components/navbar'
 import { HeroProfile } from './components/Hero'
 import { TechnologicalSkill } from './components/Skills'
-import { WorkExperience } from './components/Experience'
-import { Projects } from './components/Projects'
+// import { WorkExperience } from './components/Experience'
+// import { Projects } from './components/Projects'
 import ContactSection from './components/Contact'
 import { motion, AnimatePresence } from "framer-motion";
-import AZ from "/images/ant.zot.png";
-import UCI from "/images/University_of_California,_Irvine_seal.svg";
+// import AZ from "/images/ant.zot.png";
+// import UCI from "/images/University_of_California,_Irvine_seal.svg";
 function App() {
   return (
     <div className="flex flex-col font-secondary items-center">
@@ -79,11 +79,11 @@ function App() {
                 transition={{ duration: 0.8 }}
                 className='absolute z-20 transform -rotate-10 w-1/2 h-3/4 lg:left-1/4 lg:w-1/2 lg:h-1/2 rounded-lg overflow-hidden hover:z-50 transition-all duration-300 hover:rotate-0 hover:scale-105'
               >
-                <img 
+                {/* <img 
                   src={AZ} 
                   alt="" 
                   className="w-full h-full"
-                />
+                /> */}
               </motion.div>
               <motion.div
                 initial={{ opacity: 0 }}
@@ -92,11 +92,11 @@ function App() {
                 transition={{ duration: 0.8 }}
                 className='absolute lg:top-1/2 lg:left-1/2 left-5/8 z-10 transform rotate-6 h-full lg:w-1/2 lg:h-1/2 rounded-lg overflow-hidden hover:z-50 transition-all duration-300 hover:rotate-0 hover:scale-105'
               >
-                <img 
+                {/* <img 
                   src={UCI} 
                   alt="" 
                   className="w-full h-full"
-                />
+                /> */}
               </motion.div>
             </div>
           </div>
@@ -109,7 +109,7 @@ function App() {
           </div>
         </section>
         
-        <section id="portfolio" className="bg-[#0F0F0F] text-white">
+        {/* <section id="portfolio" className="bg-[#0F0F0F] text-white">
           <div className='flex w-full pt-20 text-2xl flex-col items-center'>
             <span className='text-4xl pb-5'>Work Experience</span>
             <WorkExperience /> 
@@ -118,7 +118,7 @@ function App() {
             <span className='text-4xl pb-5'>Recent Projects</span>
             <Projects />
           </div>
-        </section>
+        </section> */}
         
         <section id="contact" className="z-1">
           <div className='flex bg-white w-full h-full text-2xl flex-col text-black items-center space-y-10'>

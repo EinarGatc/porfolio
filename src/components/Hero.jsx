@@ -1,5 +1,5 @@
 import Typewriter from 'typewriter-effect';
-import profile from '/images/IMG_4439_2.jpg'
+// import profile from '/images/IMG_4439_2.jpg'
 export const HeroProfile = () => {
     return (
         <div className="w-full mt-16 h-[calc(100vh-6rem)] bg-[#0F0F0F]  rounded-4xl py-5 px-20" id='#About'>
@@ -29,11 +29,11 @@ export const HeroProfile = () => {
                     </span>
                 </div>
                 <div className="w-[40%] aspect-square rounded-full bg-white overflow-hidden border-4 border-[#F6BD60] shadow-lg">
-                    <img 
+                    {/* <img 
                     src={profile} 
                     alt="" 
                     className="w-full h-full object-cover"
-                    />
+                    /> */}
                 </div>
             </div>
         </div>
