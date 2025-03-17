@@ -8,7 +8,7 @@ import { Projects } from './components/Projects'
 import ContactSection from './components/Contact'
 import { motion, AnimatePresence } from "framer-motion";
 import AZ from "/images/ant.zot.png";
-import UCI from "/images/University_of_California,_Irvine_seal.svg"
+import UCI from "/images/University_of_California,_Irvine_seal.svg";
 function App() {
   return (
     <div className="flex flex-col font-secondary items-center">
