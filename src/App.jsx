@@ -3,12 +3,12 @@
 // import { NavbarComponent } from './components/navbar'
 // import { HeroProfile } from './components/Hero'
 // import { TechnologicalSkill } from './components/Skills'
-// // import { WorkExperience } from './components/Experience'
-// // import { Projects } from './components/Projects'
+// import { WorkExperience } from './components/Experience'
+// import { Projects } from './components/Projects'
 // import ContactSection from './components/Contact'
 // import { motion, AnimatePresence } from "framer-motion";
-// // import AZ from "/images/ant.zot.png";
-// // import UCI from "/images/University_of_California,_Irvine_seal.svg";
+// import AZ from "/images/ant.zot.png";
+// import UCI from "/images/University_of_California,_Irvine_seal.svg";
 // function App() {
 //   return (
 //     <div className="flex flex-col font-secondary items-center">
@@ -109,7 +109,7 @@
 //           </div>
 //         </section>
         
-//         {/* <section id="portfolio" className="bg-[#0F0F0F] text-white">
+//         <section id="portfolio" className="bg-[#0F0F0F] text-white">
 //           <div className='flex w-full pt-20 text-2xl flex-col items-center'>
 //             <span className='text-4xl pb-5'>Work Experience</span>
 //             <WorkExperience /> 
@@ -118,7 +118,7 @@
 //             <span className='text-4xl pb-5'>Recent Projects</span>
 //             <Projects />
 //           </div>
-//         </section> */}
+//         </section>
         
 //         <section id="contact" className="z-1">
 //           <div className='flex bg-white w-full h-full text-2xl flex-col text-black items-center space-y-10'>
