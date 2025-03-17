@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://EinarGatc.github.io/",
+  "homepage": "https://EinarGatc.github.io/EinarGatc.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
